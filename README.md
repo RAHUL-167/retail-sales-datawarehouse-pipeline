@@ -5,6 +5,7 @@
 This project builds an end-to-end Retail Sales Data Warehouse on the cloud using AWS S3 and Databricks. It covers the complete ETL lifecycle from raw source file ingestion through data quality validation to final dimensional modelling, following the Medallion Architecture (Bronze → Silver → Gold).
 
 The pipeline ingests CSV source files, applies data transformations and quality checks, loads clean data into dimension and fact tables, and manages archival of historical files automatically using a Python script.
+   ![Pipeline Architecture](retail_pipeline_full_architecture.png)
 
 ---
 
